@@ -24,7 +24,7 @@
     width: 1200px;
     height: 40px;
     margin: 0 auto;
-    background: #fc3;
+    
 }
 #header_01 {
     position: relative;
@@ -52,16 +52,17 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #999;
+    
 }
 #header_03 {
     position: relative;
     float: left;
     width: 100px;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-    background: #aca813;
+    background: rgb(142, 190, 30);
+    border-radius: 25px;
 }
 
 .header_row_02_all {
@@ -150,6 +151,7 @@
     height : 150px;
     font-size: 100pt;
     z-index: 2;
+    color: rgb(142, 190, 30);
 
     -webkit-animation-duration: 8s;
     -webkit-animation-name: text_01;
@@ -170,6 +172,8 @@
     height: 150px;
     font-size: 100pt;
     z-index: 2;
+    color: rgb(142, 190, 30);
+
 
     -webkit-animation-duration: 8s;
     -webkit-animation-name: text_02;
@@ -191,6 +195,8 @@
     height: 150px;
     font-size: 100pt;
     z-index: 2;
+    color: rgb(142, 190, 30);
+
 
     -webkit-animation-duration: 8s;
     -webkit-animation-name: text_03;
@@ -211,6 +217,8 @@
     height: 150px;
     font-size: 100pt;
     z-index: 2;
+    color: rgb(142, 190, 30);
+
 
     -webkit-animation-duration: 8s;
     -webkit-animation-name: text_04;
@@ -231,6 +239,8 @@
     height: 150px;
     font-size: 100pt;
     z-index: 2;
+    color: rgb(142, 190, 30);
+
 
     -webkit-animation-duration: 8s;
     -webkit-animation-name: text_05;
@@ -252,6 +262,8 @@
     height: 150px;
     font-size: 100pt;
     z-index: 2;
+    color: rgb(142, 190, 30);
+
 
     -webkit-animation-duration: 8s;
     -webkit-animation-name: text_06;
@@ -272,7 +284,9 @@
     height: 200px;
     font-size: 50pt;
     z-index: 3;
-
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    
     -webkit-animation-duration: 20s;
     -webkit-animation-name: text_11;
     -webkit-animation-iteration-count: infinite;

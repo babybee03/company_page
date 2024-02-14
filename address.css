@@ -1,0 +1,28 @@
+.company_address {
+
+    display: flex;
+    min-width: 1200px;
+    padding: 40px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+.company_address img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.company_address_1 {
+    width: 50%;
+    padding: 30px 50px;
+}
+.company_address_2 {
+    width: 50%;
+    cursor: pointer;
+    
+}
+
+.company_address_2 img:hover {
+    transform: scale(2);
+    border: 10px solid black;
+}

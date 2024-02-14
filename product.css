@@ -1,0 +1,21 @@
+.company_product {
+
+    display: flex;
+    min-width: 1200px;
+    padding: 40px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+.company_product img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.company_product_1 {
+    width: 50%;
+    padding: 30px 50px;
+}
+.company_product_2 {
+    width: 50%;
+}

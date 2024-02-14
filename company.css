@@ -10,6 +10,7 @@
     width: 600px;
     height: 300px;
     border-radius: 20px;
+    object-fit: cover;
 }
 .company_info_1 {
     width: 50%;

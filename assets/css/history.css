@@ -42,18 +42,29 @@
     font-size: 15pt;
     font-weight: 700;
 }
-.company_box_2 p {
+
+.history_year {
     display: flex;
+    flex-direction: column;
 }
+
+.history_month {
+    display: flex;
+    padding: 0px 10px 20px 10px;
+}
+
+.history_month > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.history_month > ul > li {
+    padding: 2px;
+}
+
 .company_box_2 strong {
     display: block;
     width: 100px;
     color: red;
-}
-.company_box_2 p > div {
-    display: flex;
-    flex-direction: column;
-}
-.company_box_2 p span {
-     display: block;
 }

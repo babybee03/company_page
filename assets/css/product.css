@@ -36,13 +36,15 @@
 .item_image img:hover {
     opacity: 0.7;    
 }
-.item_image:nth-child(-n+6) img {
+
+.item:nth-child(-n+6) img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
 }
-.item_image:nth-child(n+6) img {
+
+.item:nth-child(n+7) img {
     width: 100%;
     height: 500px;
     object-fit: cover;

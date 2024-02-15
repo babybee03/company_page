@@ -16,13 +16,8 @@
     width: 50%;
     padding: 30px 50px;
 }
-.company_address_2 {
-    width: 50%;
-    cursor: pointer;
-    
-}
-
-.company_address_2 img:hover {
-    transform: scale(2);
+iframe {
+    border-radius: 20px;
     border: 10px solid black;
 }
+

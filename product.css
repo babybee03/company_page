@@ -19,3 +19,31 @@
 .company_product_2 {
     width: 50%;
 }
+.product_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 10%;
+    gap: 50px;
+}
+.item_image {
+    cursor: pointer;
+    
+}
+.item_image img {
+    box-shadow: 4px 8px 10px rgb(121, 121, 121);
+}
+.item_image img:hover {
+    opacity: 0.7;    
+}
+.item_image:nth-child(-n+6) img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.item_image:nth-child(n+6) img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

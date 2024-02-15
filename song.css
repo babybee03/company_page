@@ -1,0 +1,38 @@
+.company_song {
+
+    display: flex;
+    min-width: 1200px;
+    padding: 40px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+.company_song img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.company_song_1 {
+    width: 50%;
+    padding: 30px 50px;
+}
+.company_song_2 {
+    width: 50%;
+}
+.company_song_lyrics {
+    margin: 30px 0;
+}
+.company_lyrics_1 {
+    text-align: center;
+    width: 90%;
+    min-width: 1200px;
+    background-color: rgb(153, 180, 167);
+    border: 3px dashed rgb(56, 107, 82);
+    border-radius: 5px;
+    line-height: 50px;
+
+}
+
+.company_song_lyrics_1:last-child {
+    padding-bottom: 50px;
+}

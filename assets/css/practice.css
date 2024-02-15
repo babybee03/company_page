@@ -32,6 +32,7 @@
   height: 30px;
   background-color: lavender;
 }
+
 .b {
   width: 100%;
   position: absolute;
@@ -39,10 +40,11 @@
   background-color: lavenderblush;
   z-index: 2;
 }
+
 .wrap {
   position: relative;
-   height: 30px;
-   overflow: hidden;
+  height: 30px;
+  overflow: hidden;
 }
 
 .main {

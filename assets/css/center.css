@@ -1,0 +1,38 @@
+.company_customer {
+
+    display: flex;
+    min-width: 1200px;
+    padding: 40px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+.company_customer img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.company_customer_1 {
+    width: 50%;
+    padding: 30px 50px;
+}
+.company_customer_2 {
+    width: 50%;
+}
+.customer_board {
+    width: 80%;
+    margin: 100px auto;
+}
+.customer_board_1 {
+    text-align: center;
+    width: 90%;
+    min-width: 1200px;
+    background-color: rgb(153, 180, 167);
+    border: 3px dashed rgb(56, 107, 82);
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.customer_board_1:last-child {
+    padding-bottom: 50px;
+}

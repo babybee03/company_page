@@ -29,6 +29,9 @@
     background-color: rgb(153, 180, 167);
     border: 3px dashed rgb(56, 107, 82);
     border-radius: 5px;
+    height: 600px;
+    overflow: hidden;
+    
 }
 .company_box_2 {
     display: flex;

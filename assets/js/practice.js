@@ -1,14 +1,11 @@
 /*
 $(".a").hover(function(){
-    $(".b").slideDown();
-});
-$(".main").on("click", function(){
-    $(".b").slideUp();
-})
-*/
-$(".a").hover(function(){
     $('.b').slideDown();
 })
 $(".main").on("click",function(){
     $(".b").slideUp();
+})
+*/
+$("button").click(function(){
+    $("ul").toggle()
 })

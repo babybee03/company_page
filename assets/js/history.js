@@ -1,7 +1,7 @@
 $(".company_box_1").on("click", function(){
-    
-    $(this).css({
-        "overflow" : "visible",
-        })
-    $(this).slideDown()
+
+    $(".history_hidden").slideToggle()
+    $(".history_hidden").css({
+        "display": "flex"
+    })
 })

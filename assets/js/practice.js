@@ -1,11 +1,9 @@
-$(".wrap").hover(function(){
+$(".a").hover(function(){
     $(".b").css({
-        "display" : "block"
+        "display":"block"
     })
     $(".b").slideDown();
-
 });
-
-$(".b").hover(function(){
-    $(this).slideUp();
-});
+$(".main").on("click", function(){
+    $(".b").slideUp();
+})

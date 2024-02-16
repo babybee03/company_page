@@ -34,6 +34,7 @@
 }
 
 .b {
+  display: none;
   width: 100%;
   position: absolute;
   height: 300px;
@@ -43,8 +44,8 @@
 
 .wrap {
   position: relative;
-  height: 30px;
-  overflow: hidden;
+  
+  
 }
 
 .main {

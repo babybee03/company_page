@@ -291,10 +291,12 @@ body, html {
     display: flex;
     justify-content: center;
     gap: 30px;
+    transform: 
 }
 .others_images img {
     width: 400px;
     height: 300px;
+
 
 }
 footer {

@@ -31,8 +31,13 @@
     border: 3px dashed rgb(56, 107, 82);
     border-radius: 5px;
     line-height: 50px;
+    padding-bottom: 50px;
 }
-
+.company_lyrics_1 h2 {
+    text-align: end;
+    font-size: 16pt;
+    padding-right: 300px;
+}
 .company_song_lyrics_1:last-child {
     padding-bottom: 50px;
 }

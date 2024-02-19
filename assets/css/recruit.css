@@ -1,0 +1,78 @@
+.company_recruit {
+    display: flex;
+    min-width: 1200px;
+    padding: 40px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+.company_recruit img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.company_recruit_1 {
+    width: 50%;
+    padding: 30px 50px;
+}
+.company_recruit_2 {
+    width: 50%;
+}
+.recruit_wanted {
+    width: 85%;
+    margin: 30px auto;
+    background-color:rgb(72, 71, 167);
+    padding: 20px 0;
+    text-align: center;
+    min-width: 1200px;
+}
+.recruit_wanted h2 {
+    font-size: 15pt;
+}
+.recruit_wanted_list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px 0;
+}
+.recruit_wanted_list div {
+    width: 30%;
+    height: 250px;
+    background-image: url(../img/wanted.jpg);
+    border: 1px solid black;
+    line-height: 250px;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.recruit_welfare {
+    width: 85%;
+    margin: 30px auto;
+    background-color:rgb(72, 71, 167);
+    padding: 20px 0;
+    text-align: center;
+    min-width: 1200px;
+}
+.recruit_welfare h2 {
+    font-size: 15pt;
+}
+
+.recruit_welfare_list_1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px 0;
+}
+.recruit_welfare_list_1 >  div {
+    width: 30%;
+    height: 300px;
+    background-color: rgb(183, 183, 204);
+    border: 1px solid black;
+    font-size: 15pt;
+}
+.recruit_welfare_list img {
+    width: 100%;
+    height: 250px;
+    background-color: skyblue;
+    object-fit: cover;
+}

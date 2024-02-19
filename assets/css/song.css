@@ -33,6 +33,9 @@
     line-height: 50px;
     padding-bottom: 50px;
 }
+.hide_lyrics {
+    display: none;
+}
 .company_lyrics_1 h2 {
     text-align: end;
     font-size: 16pt;

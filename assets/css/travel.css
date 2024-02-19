@@ -291,13 +291,17 @@ body, html {
     display: flex;
     justify-content: center;
     gap: 30px;
-    transform: 
+    
+    
+}
+.others_images img:hover {
+    transform: rotate(10deg);
 }
 .others_images img {
     width: 400px;
     height: 300px;
-
-
+    transition: all 0.5s;
+    border-radius: 20px;
 }
 footer {
     display: flex;
@@ -317,4 +321,14 @@ footer > div:nth-child(2) {
 footer p {
     height: 3px;
     line-height: 3px;
+}
+
+.item_img {
+    opacity: 1;
+    transition: all 0.6s ease-out;
+}
+
+.item_img.hide {
+    opacity: 0;
+    transform: translateX(-400px);
 }

@@ -18,7 +18,7 @@ $(function () {
         var scroll_height = $(window).scrollTop()+$(window).height();
         console.log(fromtopA);
         if (scroll_height > fromtopA) {
-            $(".a").animate({
+            $(".a").css({
                 "transform": "translateX(300px)"
             }, 1000);
         }

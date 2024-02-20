@@ -29,11 +29,13 @@
     display: flex;
     padding: 40px 0;
     width: 90%;
-    margin: 0 auto;
+    transform: translateX(-600px);
     min-width: 1200px;
     background-color: rgb(153, 180, 167);
     border: 3px dashed rgb(56, 107, 82);
     border-radius: 5px;
+    transition: all 2s;
+    opacity: 0;
 }
 .box_left {
     width: 50%;

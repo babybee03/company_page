@@ -22,19 +22,19 @@ $(function () {
         if (scroll_height > fromtopA) {
             $(".a").css({
                 "transform": "translateX(300px)"
-            }, 1000);
+            });
         }
 
         if (scroll_height > fromtopB) {
             $(".b").css({
                 "transform": "translateX(600px)"
-            }, 1500);
+            });
         }
 
         if (scroll_height > fromtopC) {
             $(".c").css({
                 "transform": "translateX(900px)"
-            }, 2000);
+            });
         }
     });
 });

@@ -1,3 +1,4 @@
+/*
 $(function (){
     var fromtopA = $(".a").offset().top;
     var scroll_height = $(window).scrollTop();
@@ -8,3 +9,18 @@ $(function (){
         }, 1000)
     }
 })
+*/
+
+
+$(function () {
+    $(window).scroll(function () {
+        var fromtopA = $(".a").offset().top;
+        var scroll_height = $(window).scrollTop();
+        console.log(fromtopA);
+        if (scroll_height > fromtopA) {
+            $(".a").animate({
+                "left": "300px"
+            }, 1000);
+        }
+    });
+});

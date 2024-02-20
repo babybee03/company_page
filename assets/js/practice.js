@@ -15,7 +15,7 @@ $(function (){
 $(function () {
     $(window).scroll(function () {
         var fromtopA = $(".a").offset().top;
-        var scroll_height = $(window).scrollTop();
+        var scroll_height = $(window).scrollTop()+$(window).height();
         console.log(fromtopA);
         if (scroll_height > fromtopA) {
             $(".a").animate({

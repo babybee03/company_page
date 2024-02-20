@@ -4,7 +4,7 @@ $(function (){
     console.log(fromtopA);
     if(scroll_height > fromtopA) {
         $(".a").animate({
-            "left" : "300"
+            "transform" : "translateX(300px)"
         }, 1000)
     }
 })

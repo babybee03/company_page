@@ -8,13 +8,22 @@ body, html {
 .side_menu {
     position: absolute;
     top: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, 200px);
     width: 100%;
     margin: 0 auto;
-    align-items: center;
-    justify-content: space-around;
-    background-color: white;
-    padding: 0 30% 0 10%;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.side_menu >div > div {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    color:  rgb(56, 37, 71);
+}
+.side_menu >div > div:hover {
+    background-color: rgba(165, 109, 255, 0.5);
 }
 .wrap {
     position: relative;
@@ -22,17 +31,23 @@ body, html {
     overflow: hidden;
 }
 .wrap:hover {
-    
     overflow: visible;
 }
 .menu {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, 200px);
     height: 50px;
     width: 80%;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content:center;
+    text-align: center;
+}
+.menu > div{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15pt;
+    color: rgb(109, 84, 129);
 }
 .main > img {
     width: 100%;
